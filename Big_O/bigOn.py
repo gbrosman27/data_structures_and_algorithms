@@ -28,9 +28,13 @@ find_nemo(array)
 
 # Rule 3 - Different Terms for Inputs
 # If function has multiple parameters and multiple loops (not nested), calculate loops separately. O(a + b) shows two linear loops.
-# If multiple loops are nested, multiply them. O(a * b)
+# If multiple loops are nested, multiply them. O(a * b).
 
 # Rule 4 - Drop Non-Dominants
 # A function may have a loop outside of 2 loops that are nested. This is written O(n + n^2). The quadratic part
 # is the most significant as it will slow down the function quicker than the linear loop. So we can drop the O(n)
-# and write this as O(n^2)
+# and write this as O(n^2).
+
+
+# Keep code readable and scalable (speed (time complexity), memory (space complexity)).
+# Space complexity can be manipulated by variables, function calls, data structures, and allocations.
